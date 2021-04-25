@@ -6,8 +6,8 @@ from operator import itemgetter
 relevance = {}
 relevance['Dewalt'] = 8
 relevance['Bonyth'] = 7
-relevance['Dandy'] = 6
-relevance['Trutacz'] = 5
+relevance['Trutacz'] = 6
+relevance['Dandy'] = 5
 relevance['Terror'] = 4
 relevance['Oyaji'] = 4
 relevance['Sziky'] = 3
