@@ -1,9 +1,12 @@
 # BBT-DCG
-Normalized Discounted Cumulative Gain implementation for determining accuracy of BBT standings prediction submissions
+Normalized Discounted Cumulative Gain implementation for determining accuracy of BBT standings prediction submissions.
+
+See https://en.wikipedia.org/wiki/Discounted_cumulative_gain for implementation details.
 
 ## Input: 
-- CSV table that contains the table header on row 1, and the actual final standings on row 2 with the User ID 'Final Standings'
-- E.g. https://docs.google.com/spreadsheets/d/1HPDti0az8uBuhluna8FgDlDUNuzvKJdPbORpHbm4oPU/edit?usp=sharing
+CSV table that contains the table header on row 1, and the actual final standings on row 2 with the User ID 'Final Standings'
+
+E.g. https://docs.google.com/spreadsheets/d/1HPDti0az8uBuhluna8FgDlDUNuzvKJdPbORpHbm4oPU/edit?usp=sharing
 
 ## Parameters to tweak: 
 Relevance for each place (1st-12th)
